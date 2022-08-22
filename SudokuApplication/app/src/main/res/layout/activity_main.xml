@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sudokuBoardView"
+        android:layout_marginBottom="-100dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lỗi: 0/5"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+
+    <com.example.sudokuapplication.SudokuBoardView
+        android:id="@+id/sudokuBoardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsLayout"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/noteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_num"
+            android:src="@drawable/ic_baseline_edit_note_24" />
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_delete"
+            android:src="@drawable/ic_baseline_edit_note_24" />
+    </LinearLayout>
+
+
+
+    <GridLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:rowCount="1"
+        android:columnCount="9"
+        android:layout_marginBottom="90dp">
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/oneButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="1"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="0"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/twoButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="2"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="1"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/threeButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="3"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="2"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/fourButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="3"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/fiveButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="4"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/sixButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="5"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/sevenButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="7"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="6"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/eightButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="7"/>
+        <Button
+            android:textColor="#10469c"
+            android:textStyle="bold"
+            android:background="@drawable/custom_num"
+            android:id="@+id/nineButton"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:textSize="30sp"
+            android:layout_row="0"
+            android:layout_column="8"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/newButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Ván mới"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thêm ngày kỉ niệm"
+        android:id="@+id/add"
+        android:icon="@drawable/ic_edit" />
+    <item android:title="Xóa ngày kỉ niệm"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_menu"/>
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/drawable/buttom_custom2.xml" value="0.1665" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/drawable/button_custom.xml" value="0.1665" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/drawable/custom_checkbox.xml" value="0.1665" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/drawable/panel_custom.xml" value="0.1665" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/layout/line_dish.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidKotlin/ListView/app/src/main/res/layout/linedish.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

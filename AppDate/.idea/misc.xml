@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custem_item_nav.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custom_background.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custom_button_bar.xml" value="0.1505" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custom_dialog_button.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custom_imview.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/custom_progressbar.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/ic_name_user.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/ic_outline_color_lens_24.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/image_seekbar.xml" value="0.14" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/drawable/menu_popup_background.xml" value="0.1505" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/a.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/action_bar.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/dialog_edit_name.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/edit_layoit.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/edit_layout.xml" value="0.21666666666666667" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/fragment_edit_text.xml" value="0.30038510911424904" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/image_heard.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/layout_header_nav.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/layout/navigative_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/menu/menu_more.xml" value="0.25" />
+        <entry key="..\:/AndroidKotlin/AppDate/app/src/main/res/menu/menu_navigation.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+</project>
